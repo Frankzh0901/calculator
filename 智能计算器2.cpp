@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio.h>
+#include<stdio.h>
 #include<math.h>
   using namespace std;
 #define MAXSIZE 50
