@@ -186,10 +186,6 @@ Status CheckFix(char *infix,int n) {
         cout << "括号内不能为空"<<endl;
         return FALSE;
       }
-      if (i + 1 < n && !IsSign(infix[i + 1])) {
-        cout << "第" << right << "个右括号后缺少运算符\n";
-        return FALSE;
-      }
     } else if (IsSign(c) && i > 0) {
       a = infix[i - 1];
       b = infix[i + 1];
